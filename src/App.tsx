@@ -1914,49 +1914,7 @@ export default function App() {
                       </div>
                     </div>
 
-                    {/* Operational Criteria & Standards Matrix */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      {/* Strict Accuracy Rule Card */}
-                      <div className="bg-rose-50/70 border border-rose-200 rounded-2xl p-4.5 space-y-2">
-                        <div className="flex items-center gap-2 text-rose-800 font-extrabold text-xs uppercase tracking-wider">
-                          <ShieldAlert className="w-4 h-4 text-rose-600" />
-                          <span>{t.accuracyRuleTitle}</span>
-                        </div>
-                        <p className="text-xs text-rose-900 leading-relaxed font-sans">
-                          {t.accuracyRuleDesc}
-                        </p>
-                        <div className="flex items-center gap-2 pt-1 font-mono text-[11px] text-rose-700">
-                          <span className="bg-white px-2 py-0.5 rounded border border-rose-200 font-bold">{t.badgeEligible}</span>
-                          <span className="bg-rose-200/60 px-2 py-0.5 rounded font-bold text-rose-800">{t.badgeFail}</span>
-                        </div>
-                      </div>
 
-                      {/* Speed Ranking Tier Card */}
-                      <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4.5 space-y-2">
-                        <div className="flex items-center gap-2 text-slate-800 font-extrabold text-xs uppercase tracking-wider">
-                          <Trophy className="w-4 h-4 text-indigo-600" />
-                          <span>{t.speedRankingTitle}</span>
-                        </div>
-                        <div className="grid grid-cols-2 gap-2 text-[11px] font-mono">
-                          <div className="bg-white p-2 rounded-lg border border-emerald-200 text-emerald-800">
-                            <strong className="block text-emerald-700">Level A: ≤ 2.3s</strong>
-                            <span className="text-[10px] text-slate-500 font-sans">{t.eliteExpertPace}</span>
-                          </div>
-                          <div className="bg-white p-2 rounded-lg border border-indigo-200 text-indigo-800">
-                            <strong className="block text-indigo-700">Level B: 2.4s ~ 2.5s</strong>
-                            <span className="text-[10px] text-slate-500 font-sans">{t.specialistPace}</span>
-                          </div>
-                          <div className="bg-white p-2 rounded-lg border border-amber-200 text-amber-800">
-                            <strong className="block text-amber-700">Level C: 2.6s ~ 3.0s</strong>
-                            <span className="text-[10px] text-slate-500 font-sans">{t.qualifiedStandard}</span>
-                          </div>
-                          <div className="bg-white p-2 rounded-lg border border-blue-200 text-blue-800">
-                            <strong className="block text-blue-700">Level D: 3.0s ~ 3.2s</strong>
-                            <span className="text-[10px] text-slate-500 font-sans">{t.practitionerPace}</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
                     {/* Unlimited Attempts & Concurrency Banner */}
                     <div className="bg-slate-900 text-slate-200 p-4 rounded-xl border border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs shadow-xs">
